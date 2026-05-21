@@ -98,7 +98,7 @@ export default function TodoApp() {
         {/* LEFT PANEL */}
         <div className="space-y-6 h-full min-h-0">
           {/* Calendar */}
-          <div className="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6">
+          <div className="rounded-3xl border border-white/10 bg-white/3 backdrop-blur-xl p-6">
             {/* Header */}
             <div className="flex items-center justify-between mb-6">
               <div>
@@ -107,7 +107,7 @@ export default function TodoApp() {
                 <p className="text-zinc-400 text-sm mt-1">Select a day</p>
               </div>
 
-              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center">
                 <CalendarDays size={22} />
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function TodoApp() {
             <div className="flex items-center justify-between mb-5">
               <button
                 onClick={() => setCurrentMonth(new Date(year, month - 1, 1))}
-                className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/10 flex items-center justify-center hover:bg-white/[0.08] transition cursor-pointer"
+                className="w-10 h-10 rounded-xl bg-white/4 border border-white/10 flex items-center justify-center hover:bg-white/8 transition cursor-pointer"
               >
                 <ChevronLeft size={18} />
               </button>
@@ -125,7 +125,7 @@ export default function TodoApp() {
 
               <button
                 onClick={() => setCurrentMonth(new Date(year, month + 1, 1))}
-                className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/10 flex items-center justify-center hover:bg-white/[0.08] transition cursor-pointer"
+                className="w-10 h-10 rounded-xl bg-white/4 border border-white/10 flex items-center justify-center hover:bg-white/8 transition cursor-pointer"
               >
                 <ChevronRight size={18} />
               </button>
@@ -167,8 +167,8 @@ export default function TodoApp() {
                       flex items-center justify-center  cursor-pointer
                       ${
                         isSelected
-                          ? "bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold shadow-lg"
-                          : "bg-white/[0.03] hover:bg-white/[0.08] text-zinc-300"
+                          ? "bg-linear-to-r from-blue-500 to-purple-600 text-white font-bold shadow-lg"
+                          : "bg-white/3 hover:bg-white/8 text-zinc-300"
                       }
                     `}
                   >
@@ -176,7 +176,7 @@ export default function TodoApp() {
 
                     {hasTasks && (
                       <div className="absolute -top-0.5 -right-0.5">
-                        <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 border border-white/40 shadow-[0_0_12px_rgba(52,211,153,0.9)] animate-pulse" />
+                        <div className="w-2.5 h-2.5 rounded-full bg-linear-to-r from-emerald-400 to-cyan-400 border border-white/40 shadow-[0_0_12px_rgba(52,211,153,0.9)] animate-pulse" />
                       </div>
                     )}
                   </button>
@@ -186,7 +186,7 @@ export default function TodoApp() {
           </div>
 
           {/* Stats */}
-          <div className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-4">
+          <div className="rounded-2xl border border-white/10 bg-white/3 backdrop-blur-xl p-4">
             {/* Header */}
             <div className="flex items-center justify-between mb-4">
               <div>
@@ -197,14 +197,14 @@ export default function TodoApp() {
                 </p>
               </div>
 
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-linear-to-br from-emerald-500 to-green-600 flex items-center justify-center">
                 <ClipboardList size={18} />
               </div>
             </div>
 
             {/* Stats grid */}
             <div className="grid grid-cols-2 gap-3">
-              <div className="rounded-xl bg-white/[0.04] border border-white/10 p-3">
+              <div className="rounded-xl bg-white/4 border border-white/10 p-3">
                 <p className="text-zinc-500 text-xs">Total</p>
 
                 <div className="mt-1 text-2xl font-bold">
@@ -212,7 +212,7 @@ export default function TodoApp() {
                 </div>
               </div>
 
-              <div className="rounded-xl bg-white/[0.04] border border-white/10 p-3">
+              <div className="rounded-xl bg-white/4 border border-white/10 p-3">
                 <p className="text-zinc-500 text-xs">Done</p>
 
                 <div className="mt-1 text-2xl font-bold text-green-400">
@@ -222,7 +222,7 @@ export default function TodoApp() {
             </div>
 
             {/* Progress */}
-            <div className="mt-3 rounded-xl bg-white/[0.04] border border-white/10 p-3">
+            <div className="mt-3 rounded-xl bg-white/4 border border-white/10 p-3">
               <div className="flex items-center justify-between mb-2">
                 <p className="text-zinc-500 text-xs">Progress</p>
 
@@ -236,7 +236,7 @@ export default function TodoApp() {
 
               <div className="h-2 rounded-full bg-zinc-800 overflow-hidden">
                 <div
-                  className="h-full bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-500"
+                  className="h-full bg-linear-to-r from-blue-500 to-purple-600 transition-all duration-500"
                   style={{
                     width: `${
                       filteredTodos.length
@@ -251,7 +251,7 @@ export default function TodoApp() {
         </div>
 
         {/* RIGHT PANEL */}
-        <div className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl overflow-hidden flex flex-col h-full min-h-0">
+        <div className="rounded-2xl border border-white/10 bg-white/3 backdrop-blur-xl overflow-hidden flex flex-col h-full min-h-0">
           {/* Header */}
           <div className="p-4 border-b border-white/10 shrink-0 space-y-3">
             {/* Title + date */}
@@ -273,7 +273,7 @@ export default function TodoApp() {
                 placeholder="Add new task..."
                 className="
         flex-1 h-9 px-3 rounded-lg
-        bg-white/[0.04]
+        bg-white/4
         border border-white/10
         outline-none
         focus:border-blue-500/50
@@ -286,7 +286,7 @@ export default function TodoApp() {
                 onClick={addTodo}
                 className="
         h-9 px-3 rounded-lg
-        bg-gradient-to-r from-blue-500 to-purple-600
+        bg-linear-to-r from-blue-500 to-purple-600
         hover:scale-[1.02]
         active:scale-95
         transition-all
@@ -320,8 +320,8 @@ export default function TodoApp() {
                   className="
           group flex items-center justify-between
           rounded-xl border border-white/10
-          bg-white/[0.03]
-          p-3 hover:bg-white/[0.05]
+          bg-white/3
+          p-3 hover:bg-white/4
           transition
         "
                 >
