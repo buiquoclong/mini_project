@@ -32,7 +32,7 @@ export default function Topbar() {
         </button>
 
         {/* Avatar */}
-        <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 shadow-lg shadow-blue-500/20" />
+        <div className="w-10 h-10 rounded-2xl bg-linear-to-br from-blue-500 to-purple-600 shadow-lg shadow-blue-500/20" />
       </div>
     </header>
   );

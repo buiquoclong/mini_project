@@ -6,7 +6,7 @@ export default function Sidebar() {
   return (
     <aside className="relative w-72 border-r border-white/10 bg-zinc-950/70 backdrop-blur-xl">
       {/* Glow */}
-      <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-blue-500/10 to-transparent pointer-events-none" />
+      <div className="absolute top-0 left-0 w-full h-40 bg-linear-to-b from-blue-500/10 to-transparent pointer-events-none" />
 
       <div className="relative z-10 p-6">
         {/* Logo */}
@@ -32,7 +32,7 @@ export default function Sidebar() {
                   transition-all duration-300
                   ${
                     isActive
-                      ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg shadow-blue-500/20"
+                      ? "bg-linear-to-r from-blue-600 to-purple-600 text-white shadow-lg shadow-blue-500/20"
                       : "text-zinc-400 hover:bg-white/5 hover:text-white"
                   }
                 `
