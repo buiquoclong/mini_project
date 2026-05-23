@@ -9,16 +9,16 @@ export default function AppLayout() {
       {/* Background Effects */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Gradient blobs */}
-        <div className="absolute top-[-120px] left-[-120px] w-[400px] h-[400px] bg-blue-600/20 rounded-full blur-3xl" />
+        <div className="absolute -top-30 -left-30 w-100 h-100 bg-blue-600/20 rounded-full blur-3xl" />
 
-        <div className="absolute bottom-[-150px] right-[-100px] w-[450px] h-[450px] bg-purple-600/20 rounded-full blur-3xl" />
+        <div className="absolute -bottom-37.5 -right-25 w-112.5 h-112.5 bg-purple-600/20 rounded-full blur-3xl" />
 
         {/* Grid */}
         <div
           className="
             absolute inset-0
             bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)]
-            bg-[size:40px_40px]
+            bg-size-[40px_40px]
           "
         />
       </div>
@@ -31,7 +31,7 @@ export default function AppLayout() {
           <Topbar />
 
           <main className="flex-1 overflow-hidden p-8 pt-0">
-            <div className="h-full overflow-auto rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-md p-3 my-4">
+            <div className="h-full overflow-auto rounded-3xl border border-white/10 bg-white/3 backdrop-blur-md p-3 my-4">
               <Outlet />
             </div>
           </main>
