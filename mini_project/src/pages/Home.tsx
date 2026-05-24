@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-zinc-950 text-white ">
       {/* Background Glow */}
-      <div className="absolute top-[-120px] left-[-120px] w-[350px] h-[350px] rounded-full bg-blue-500/20 blur-3xl" />
+      <div className="absolute -top-30 -left-30 w-87.5 h-87.5 rounded-full bg-blue-500/20 blur-3xl" />
 
-      <div className="absolute bottom-[-150px] right-[-100px] w-[350px] h-[350px] rounded-full bg-purple-500/20 blur-3xl" />
+      <div className="absolute -bottom-37.5 -right-25 w-87.5 h-87.5 rounded-full bg-purple-500/20 blur-3xl" />
 
       {/* Noise Overlay */}
       <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
@@ -44,7 +44,7 @@ export default function Home() {
           {/* Title */}
           <h1 className="text-5xl md:text-7xl font-black leading-[0.95] tracking-tight max-w-4xl">
             Build & Explore
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+            <span className="block text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-purple-400">
               Mini React Apps
             </span>
           </h1>
@@ -70,13 +70,13 @@ export default function Home() {
                 >
                   {/* Glow */}
                   <div
-                    className={`absolute inset-0 opacity-0 group-hover:opacity-20 transition bg-gradient-to-br ${project.color}`}
+                    className={`absolute inset-0 opacity-0 group-hover:opacity-20 transition bg-linear-to-br ${project.color}`}
                   />
 
                   {/* Content */}
                   <div className="relative z-10">
                     <div
-                      className={`w-14 h-14 rounded-2xl mb-5 flex items-center justify-center bg-gradient-to-br ${project.color}`}
+                      className={`w-14 h-14 rounded-2xl mb-5 flex items-center justify-center bg-linear-to-br ${project.color}`}
                     >
                       <Icon size={28} />
                     </div>
