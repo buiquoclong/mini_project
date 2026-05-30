@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.left {
+  flex: 1 1 320px;
+}
+
+.right {
+  flex: 1 1 240px;
+}
