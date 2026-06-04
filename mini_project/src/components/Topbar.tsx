@@ -1,4 +1,3 @@
-// Topbar.tsx
 import { Bell, Search } from "lucide-react";
 
 export default function Topbar() {

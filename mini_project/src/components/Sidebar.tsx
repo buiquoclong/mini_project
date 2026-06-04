@@ -1,4 +1,3 @@
-// Sidebar.tsx
 import { NavLink } from "react-router-dom";
 import { projects } from "../data/projects";
 
