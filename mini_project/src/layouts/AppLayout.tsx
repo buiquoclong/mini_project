@@ -1,4 +1,3 @@
-// AppLayout.tsx
 import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
@@ -13,7 +12,6 @@ export default function AppLayout() {
 
         <div className="absolute -bottom-37.5 -right-25 w-112.5 h-112.5 bg-purple-600/20 rounded-full blur-3xl" />
 
-        {/* Grid */}
         <div
           className="
             absolute inset-0
@@ -23,7 +21,6 @@ export default function AppLayout() {
         />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 flex w-full">
         <Sidebar />
 
