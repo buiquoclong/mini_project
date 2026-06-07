@@ -10,12 +10,9 @@ export default function Home() {
 
       <div className="absolute -bottom-37.5 -right-25 w-87.5 h-87.5 rounded-full bg-purple-500/20 blur-3xl" />
 
-      {/* Noise Overlay */}
       <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
 
-      {/* Content */}
       <div className="relative z-10">
-        {/* Navbar */}
         <header className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-2xl bg-blue-600 flex items-center justify-center">
@@ -33,15 +30,12 @@ export default function Home() {
           </button>
         </header>
 
-        {/* Hero */}
         <section className="max-w-7xl mx-auto px-6 pt-14 pb-20 flex flex-col items-center text-center">
-          {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-500/20 bg-blue-500/10 text-blue-400 text-sm mb-8">
             <Sparkles size={14} />
             Modern Frontend Playground
           </div>
 
-          {/* Title */}
           <h1 className="text-5xl md:text-7xl font-black leading-[0.95] tracking-tight max-w-4xl">
             Build & Explore
             <span className="block text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-purple-400">
@@ -49,14 +43,12 @@ export default function Home() {
             </span>
           </h1>
 
-          {/* Description */}
           <p className="mt-8 text-zinc-400 text-lg max-w-2xl leading-relaxed">
             A collection of modern frontend mini-projects built with React,
             TypeScript, TailwindCSS and scalable architecture.
           </p>
         </section>
 
-        {/* Grid (GIỮ NGUYÊN) */}
         <section className="max-w-6xl mx-auto px-6 pb-24">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {projects.map((project) => {
@@ -68,12 +60,10 @@ export default function Home() {
                   to={project.path}
                   className="group relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 p-6 hover:border-zinc-600 transition-all hover:-translate-y-1"
                 >
-                  {/* Glow */}
                   <div
                     className={`absolute inset-0 opacity-0 group-hover:opacity-20 transition bg-linear-to-br ${project.color}`}
                   />
 
-                  {/* Content */}
                   <div className="relative z-10">
                     <div
                       className={`w-14 h-14 rounded-2xl mb-5 flex items-center justify-center bg-linear-to-br ${project.color}`}
