@@ -4,11 +4,9 @@ import { projects } from "../data/projects";
 export default function Sidebar() {
   return (
     <aside className="relative w-72 border-r border-white/10 bg-zinc-950/70 backdrop-blur-xl">
-      {/* Glow */}
       <div className="absolute top-0 left-0 w-full h-40 bg-linear-to-b from-blue-500/10 to-transparent pointer-events-none" />
 
       <div className="relative z-10 p-6">
-        {/* Logo */}
         <div className="flex items-center gap-3 mb-10">
           <div>
             <h1 className="text-xl font-black tracking-tight">Mini Apps</h1>
@@ -16,7 +14,6 @@ export default function Sidebar() {
           </div>
         </div>
 
-        {/* Navigation */}
         <nav className="space-y-2">
           {projects.map((project) => {
             const Icon = project.icon;
