@@ -5,9 +5,7 @@ import Topbar from "../components/Topbar";
 export default function AppLayout() {
   return (
     <div className="relative flex h-screen overflow-hidden bg-[#09090B] text-white">
-      {/* Background Effects */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Gradient blobs */}
         <div className="absolute -top-30 -left-30 w-100 h-100 bg-blue-600/20 rounded-full blur-3xl" />
 
         <div className="absolute -bottom-37.5 -right-25 w-112.5 h-112.5 bg-purple-600/20 rounded-full blur-3xl" />
