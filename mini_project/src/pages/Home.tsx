@@ -5,7 +5,6 @@ import { Sparkles } from "lucide-react";
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-zinc-950 text-white ">
-      {/* Background Glow */}
       <div className="absolute -top-30 -left-30 w-87.5 h-87.5 rounded-full bg-blue-500/20 blur-3xl" />
 
       <div className="absolute -bottom-37.5 -right-25 w-87.5 h-87.5 rounded-full bg-purple-500/20 blur-3xl" />
