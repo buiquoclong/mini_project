@@ -1,6 +1,6 @@
-import { useState, useCallback } from 'react';
-import { geocodeCity, fetchWeatherForCoords } from '../services/weatherApi';
-import { WeatherData } from '../types/weather';
+import { useState, useCallback } from "react";
+import { geocodeCity, fetchWeatherForCoords } from "../services/weatherApi";
+import { WeatherData } from "../types/weather";
 
 export function useWeather() {
   const [data, setData] = useState<WeatherData | null>(null);
@@ -12,14 +12,13 @@ export function useWeather() {
     setError(null);
     try {
       const geo = await geocodeCity(city);
-      if (!geo) throw new Error('Location not found');
+      if (!geo) throw new Error("Location not found");
       const w = await fetchWeatherForCoords(geo.latitude, geo.longitude);
-      if (!w) throw new Error('Weather fetch failed');
-      // ensure location reflects the geocoded name
+      if (!w) throw new Error("Weather fetch failed");
       w.location = geo;
       setData(w);
     } catch (err: any) {
-      setError(err.message || 'Unknown error');
+      setError(err.message || "Unknown error");
       setData(null);
     } finally {
       setLoading(false);
