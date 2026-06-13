@@ -35,7 +35,6 @@ export default function TodoApp() {
   // Add Todo
   const addTodo = () => {
     if (!input.trim()) return;
-
     setTodos([
       {
         id: Date.now(),
@@ -45,7 +44,6 @@ export default function TodoApp() {
       },
       ...todos,
     ]);
-
     setInput("");
   };
 
@@ -95,11 +93,8 @@ export default function TodoApp() {
   return (
     <div className="min-h-0 p-4 py-0  text-white">
       <div className="grid grid-cols-1 lg:grid-cols-[340px_1fr] gap-6 h-[calc(90vh-48px)] items-stretch overflow-hidden">
-        {/* LEFT PANEL */}
         <div className="space-y-6 h-full min-h-0">
-          {/* Calendar */}
           <div className="rounded-3xl border border-white/10 bg-white/3 backdrop-blur-xl p-6">
-            {/* Header */}
             <div className="flex items-center justify-between mb-6">
               <div>
                 <h2 className="text-xl font-bold">Calendar</h2>
