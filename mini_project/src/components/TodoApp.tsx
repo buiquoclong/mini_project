@@ -107,7 +107,6 @@ export default function TodoApp() {
               </div>
             </div>
 
-            {/* Month Controls */}
             <div className="flex items-center justify-between mb-5">
               <button
                 onClick={() => setCurrentMonth(new Date(year, month - 1, 1))}
@@ -126,7 +125,6 @@ export default function TodoApp() {
               </button>
             </div>
 
-            {/* Weekdays */}
             <div className="grid grid-cols-7 gap-2 mb-2">
               {["S", "M", "T", "W", "T", "F", "S"].map((day) => (
                 <div
@@ -138,7 +136,6 @@ export default function TodoApp() {
               ))}
             </div>
 
-            {/* Days */}
             <div className="grid grid-cols-7 gap-2">
               {calendarDays.map((date, index) => {
                 if (!date) {
@@ -180,7 +177,6 @@ export default function TodoApp() {
             </div>
           </div>
 
-          {/* Stats */}
           <div className="rounded-2xl border border-white/10 bg-white/3 backdrop-blur-xl p-4">
             {/* Header */}
             <div className="flex items-center justify-between mb-4">
