@@ -178,7 +178,6 @@ export default function TodoApp() {
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/3 backdrop-blur-xl p-4">
-            {/* Header */}
             <div className="flex items-center justify-between mb-4">
               <div>
                 <h2 className="text-lg font-bold">Daily Stats</h2>
@@ -193,7 +192,6 @@ export default function TodoApp() {
               </div>
             </div>
 
-            {/* Stats grid */}
             <div className="grid grid-cols-2 gap-3">
               <div className="rounded-xl bg-white/4 border border-white/10 p-3">
                 <p className="text-zinc-500 text-xs">Total</p>
@@ -212,7 +210,6 @@ export default function TodoApp() {
               </div>
             </div>
 
-            {/* Progress */}
             <div className="mt-3 rounded-xl bg-white/4 border border-white/10 p-3">
               <div className="flex items-center justify-between mb-2">
                 <p className="text-zinc-500 text-xs">Progress</p>
