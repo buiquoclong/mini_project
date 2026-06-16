@@ -238,11 +238,8 @@ export default function TodoApp() {
           </div>
         </div>
 
-        {/* RIGHT PANEL */}
         <div className="rounded-2xl border border-white/10 bg-white/3 backdrop-blur-xl overflow-hidden flex flex-col h-full min-h-0">
-          {/* Header */}
           <div className="p-4 border-b border-white/10 shrink-0 space-y-3">
-            {/* Title + date */}
             <div>
               <h1 className="text-lg font-semibold tracking-tight m-0">
                 Tasks
