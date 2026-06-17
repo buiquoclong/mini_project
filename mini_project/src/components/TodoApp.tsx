@@ -250,7 +250,6 @@ export default function TodoApp() {
               </p>
             </div>
 
-            {/* Input */}
             <div className="flex gap-2">
               <input
                 value={input}
@@ -284,7 +283,6 @@ export default function TodoApp() {
             </div>
           </div>
 
-          {/* Todo List */}
           <div className="flex-1 min-h-0 overflow-hidden p-4">
             <div className="h-full max-h-full overflow-y-auto space-y-2 pr-1">
               {filteredTodos.length === 0 && (
@@ -310,7 +308,6 @@ export default function TodoApp() {
           transition
         "
                 >
-                  {/* Left */}
                   <div
                     onClick={() => toggleTodo(todo.id)}
                     className="flex items-center gap-3 flex-1 cursor-pointer"
