@@ -336,7 +336,6 @@ export default function TodoApp() {
                     </span>
                   </div>
 
-                  {/* Delete */}
                   <button
                     onClick={() => deleteTodo(todo.id)}
                     className="
