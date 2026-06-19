@@ -7,6 +7,7 @@ export function useWeather() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // Chức năng tìm kiếm thời tiết dựa trên tên thành phố
   const search = useCallback(async (city: string) => {
     setLoading(true);
     setError(null);
