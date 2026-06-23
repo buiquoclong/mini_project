@@ -4,6 +4,7 @@ type Props = {
   daily: DailyForecast[];
 };
 
+// Component hiển thị danh sách dự báo hàng ngày
 export default function ForecastList({ daily }: Props) {
   return (
     <div
