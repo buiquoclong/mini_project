@@ -9,6 +9,7 @@ export type Project = {
   color: string;
 };
 
+// Cấu trúc dữ liệu cho các dự án mini
 export const projects: Project[] = [
   {
     id: "todo",
