@@ -4,6 +4,7 @@ type Props = {
   data: WeatherData;
 };
 
+// Component hiển thị thông tin thời tiết hiện tại
 export default function WeatherCard({ data }: Props) {
   const { location, current } = data;
   return (
