@@ -52,6 +52,7 @@ export async function fetchWeatherForCoords(
     weathercode: data.current_weather?.weathercode,
     time: data.current_weather?.time,
   };
+  // Chuyển đổi dữ liệu dự báo hàng ngày từ API sang định dạng DailyForecast
   const daily: DailyForecast[] = (data.daily?.time || []).map(
     (d: string, i: number) => ({
       date: d,
