@@ -6,6 +6,7 @@ export interface GeocodeResult {
   country?: string;
 }
 
+// Khởi tạo các kiểu dữ liệu TypeScript để mô tả dữ liệu thời tiết hiện tại và dự báo hàng ngày
 export interface CurrentWeather {
   temperature: number;
   windspeed: number;
