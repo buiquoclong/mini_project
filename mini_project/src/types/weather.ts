@@ -22,6 +22,7 @@ export interface DailyForecast {
   tempMin: number;
 }
 
+// Khởi tạo kiểu dữ liệu TypeScript để mô tả dữ liệu thời tiết tổng hợp, bao gồm thông tin vị trí, thời tiết hiện tại và dự báo hàng ngày
 export interface WeatherData {
   location: GeocodeResult;
   current: CurrentWeather;
