@@ -15,7 +15,6 @@ export interface CurrentWeather {
   time?: string;
 }
 
-// Khởi tạo các kiểu dữ liệu TypeScript để mô tả dự báo thời tiết hàng ngày
 export interface DailyForecast {
   date: string;
   tempMax: number;
