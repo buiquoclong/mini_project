@@ -1,4 +1,3 @@
-// Khởi tạo các kiểu dữ liệu TypeScript để mô tả dữ liệu thời tiết và kết quả geocode
 export interface GeocodeResult {
   name: string;
   latitude: number;
