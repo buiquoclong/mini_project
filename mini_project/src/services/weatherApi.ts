@@ -45,7 +45,6 @@ export async function fetchWeatherForCoords(
     latitude: lat,
     longitude: lon,
   } as GeocodeResult;
-  // Chuyển đổi dữ liệu thời tiết hiện tại từ API sang định dạng CurrentWeather
   const current: CurrentWeather = {
     temperature: data.current_weather?.temperature ?? 0,
     windspeed: data.current_weather?.windspeed ?? 0,
