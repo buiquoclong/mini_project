@@ -24,7 +24,6 @@ export async function geocodeCity(name: string): Promise<GeocodeResult | null> {
   };
 }
 
-// Lấy dữ liệu thời tiết hiện tại và dự báo hàng ngày cho tọa độ đã cho
 export async function fetchWeatherForCoords(
   lat: number,
   lon: number,
