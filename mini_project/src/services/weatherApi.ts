@@ -8,7 +8,6 @@ import {
 const GEOCODE_URL = "https://geocoding-api.open-meteo.com/v1/search";
 const FORECAST_URL = "https://api.open-meteo.com/v1/forecast";
 
-// Chuyển đổi tên thành tọa độ và thông tin địa lý
 export async function geocodeCity(name: string): Promise<GeocodeResult | null> {
   const url = `${GEOCODE_URL}?name=${encodeURIComponent(name)}&count=1&language=en&format=json`;
   const res = await fetch(url);
