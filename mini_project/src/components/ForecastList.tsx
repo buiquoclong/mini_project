@@ -19,7 +19,7 @@ export default function ForecastList({ daily }: Props) {
           style={{ padding: 12, border: "1px solid #eee", borderRadius: 6 }}
         >
           <div style={{ fontSize: 14, color: "#333" }}>{d.date}</div>
-          <div style={{ fontSize: 18, fontWeight: 600 }}>
+          <div style={{ fontSize: 16, fontWeight: 600 }}>
             {Math.round(d.tempMax)}° / {Math.round(d.tempMin)}°
           </div>
         </div>
