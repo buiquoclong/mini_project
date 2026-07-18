@@ -21,7 +21,6 @@ export default function TodoApp() {
   const [todos, setTodos] = useLocalStorage<Todo[]>("todos", []);
   const [input, setInput] = useState("");
 
-  // Calendar state
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [currentMonth, setCurrentMonth] = useState(new Date());
 
