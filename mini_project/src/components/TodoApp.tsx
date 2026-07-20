@@ -30,7 +30,6 @@ export default function TodoApp() {
 
   const selectedDateKey = formatDateKey(selectedDate);
 
-  // Add Todo
   const addTodo = () => {
     if (!input.trim()) return;
     setTodos([
