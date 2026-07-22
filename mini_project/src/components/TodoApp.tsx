@@ -50,7 +50,6 @@ export default function TodoApp() {
     );
   };
 
-  // Delete Todo
   const deleteTodo = (id: number) => {
     setTodos(todos.filter((t) => t.id !== id));
   };
