@@ -54,7 +54,6 @@ export default function TodoApp() {
     setTodos(todos.filter((t) => t.id !== id));
   };
 
-  // Filter todos by selected date
   const filteredTodos = useMemo(() => {
     return todos.filter(
       (todo) => formatDateKey(new Date(todo.createdAt)) === selectedDateKey,
