@@ -62,7 +62,6 @@ export default function TodoApp() {
 
   const completedCount = filteredTodos.filter((t) => t.completed).length;
 
-  // Calendar Logic
   const year = currentMonth.getFullYear();
   const month = currentMonth.getMonth();
 
