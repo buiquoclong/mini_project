@@ -24,7 +24,7 @@ export default function WeatherCard({ data }: Props) {
         </div>
         <div style={{ color: "#555" }}>
           <div>Wind {Math.round(current.windspeed)} km/h</div>
-          <div>Dir {Math.round(current.winddirection)}°</div>
+          <div>Dir {Math.round(current.winddirection)}°C</div>
         </div>
       </div>
     </div>
