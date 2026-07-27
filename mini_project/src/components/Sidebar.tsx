@@ -9,7 +9,9 @@ export default function Sidebar() {
       <div className="relative z-10 p-6">
         <div className="flex items-center gap-3 mb-10">
           <div>
-            <h1 className="text-xl font-black tracking-tight">Mini Apps</h1>
+            <h1 className="text-xl font-black tracking-tight">
+              Mini Apps Project
+            </h1>
             <p className="text-xs text-zinc-500">React Playground</p>
           </div>
         </div>
