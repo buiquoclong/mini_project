@@ -45,6 +45,7 @@ export default function TodoApp() {
     setInput("");
   };
 
+  // Chức năng đánh dấu hoàn thành công việc
   const toggleTodo = (id: number) => {
     setTodos(
       todos.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t)),
