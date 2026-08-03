@@ -52,6 +52,7 @@ export default function TodoApp() {
     );
   };
 
+  // Chức năng xóa công việc
   const deleteTodo = (id: number) => {
     setTodos(todos.filter((t) => t.id !== id));
   };
