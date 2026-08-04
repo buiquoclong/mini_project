@@ -57,6 +57,7 @@ export default function TodoApp() {
     setTodos(todos.filter((t) => t.id !== id));
   };
 
+  // Lọc công việc theo ngày được chọn
   const filteredTodos = useMemo(() => {
     return todos.filter(
       (todo) => formatDateKey(new Date(todo.createdAt)) === selectedDateKey,
