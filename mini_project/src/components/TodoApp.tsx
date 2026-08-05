@@ -82,6 +82,7 @@ export default function TodoApp() {
     calendarDays.push(new Date(year, month, day));
   }
 
+  // Tạo nhãn tháng và năm để hiển thị trên giao diện
   const monthLabel = currentMonth.toLocaleDateString("en-US", {
     month: "long",
     year: "numeric",
