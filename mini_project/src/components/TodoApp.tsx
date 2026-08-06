@@ -24,6 +24,7 @@ export default function TodoApp() {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [currentMonth, setCurrentMonth] = useState(new Date());
 
+  // Hàm formatDateKey để định dạng ngày thành chuỗi "YYYY-MM-DD" để so sánh
   const formatDateKey = (date: Date) => {
     return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
   };
