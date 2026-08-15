@@ -1,5 +1,6 @@
 import { CheckSquare, Cloud, NotebookPen, type LucideIcon } from "lucide-react";
 
+// Khởi tạo kiểu dữ liệu cho một dự án, bao gồm id, tên, mô tả, đường dẫn, biểu tượng và màu sắc.
 export type Project = {
   id: string;
   name: string;
