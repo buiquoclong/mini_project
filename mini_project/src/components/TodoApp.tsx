@@ -31,7 +31,6 @@ export default function TodoApp() {
 
   const selectedDateKey = formatDateKey(selectedDate);
 
-  // Chức năng thêm công việc mới
   const addTodo = () => {
     if (!input.trim()) return;
     setTodos([
