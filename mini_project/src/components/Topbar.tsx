@@ -17,7 +17,7 @@ export default function Topbar() {
 
           <input
             type="text"
-            placeholder="Search..."
+            placeholder="Feature search..."
             className="bg-transparent outline-none text-sm placeholder:text-zinc-500"
           />
         </div>
