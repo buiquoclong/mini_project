@@ -8,7 +8,7 @@ export default function Topbar() {
           React Mini Dashboard
         </h2>
 
-        <p className="text-sm text-zinc-500">Modern Frontend Playground</p>
+        <p className="text-sm text-zinc-500">Frontend Playground</p>
       </div>
 
       <div className="flex items-center gap-4">
