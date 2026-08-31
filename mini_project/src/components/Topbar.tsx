@@ -4,9 +4,7 @@ export default function Topbar() {
   return (
     <header className="h-16 border-b border-white/10 bg-zinc-950/60 backdrop-blur-xl px-6 flex items-center justify-between">
       <div>
-        <h2 className="text-lg font-bold tracking-tight">
-          React Mini Dashboard
-        </h2>
+        <h2 className="text-lg font-bold tracking-tight">React Dashboard</h2>
 
         <p className="text-sm text-zinc-500">Frontend Playground</p>
       </div>
