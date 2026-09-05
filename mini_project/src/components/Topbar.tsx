@@ -27,7 +27,6 @@ export default function Topbar() {
           </div>
         </div>
 
-        {/* Right */}
         <div className="flex items-center gap-3">
           {/* Search */}
           <div className="group hidden w-70 items-center gap-3 rounded-xl border border-white/10 bg-white/4 px-3.5 py-2.5 transition-all duration-300 hover:border-white/15 hover:bg-white/[0.07] focus-within:border-blue-500/40 focus-within:bg-blue-500/4 focus-within:ring-4 focus-within:ring-blue-500/5 md:flex">
