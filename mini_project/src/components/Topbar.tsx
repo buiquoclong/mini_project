@@ -4,7 +4,6 @@ export default function Topbar() {
   return (
     <header className="sticky top-0 z-40 h-20 border-b border-white/10 bg-zinc-950/75 px-6 backdrop-blur-2xl">
       <div className="mx-auto flex h-full items-center justify-between">
-        {/* Left */}
         <div className="flex items-center gap-4">
           <div className="hidden h-10 w-10 items-center justify-center rounded-xl border border-blue-500/20 bg-blue-500/10 text-blue-400 sm:flex">
             <Sparkles size={19} />
