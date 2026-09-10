@@ -13,8 +13,8 @@ export default function SearchBar({ onSearch }: Props) {
     <form onSubmit={submit} className="w-full">
       <div className="group flex w-full items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.04] p-1.5 shadow-2xl shadow-black/20 backdrop-blur-xl transition-all duration-300 hover:border-white/15 hover:bg-white/[0.06] focus-within:border-cyan-400/40 focus-within:bg-white/[0.07] focus-within:shadow-cyan-500/5">
         <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/[0.05] text-zinc-500 transition-colors duration-300 group-focus-within:text-cyan-400">
-          <Search size={19} strokeWidth={2} />{" "}
-        </div>{" "}
+          <Search size={19} strokeWidth={2} />
+        </div>
         <input
           aria-label="city"
           type="text"
@@ -32,9 +32,9 @@ export default function SearchBar({ onSearch }: Props) {
           <ArrowRight
             size={17}
             className="transition-transform duration-300 group-hover:translate-x-0.5"
-          />{" "}
-        </button>{" "}
-      </div>{" "}
+          />
+        </button>
+      </div>
     </form>
   );
 }
