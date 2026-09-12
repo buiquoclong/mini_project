@@ -57,10 +57,8 @@ export default function Topbar() {
             <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-blue-500 ring-2 ring-zinc-950" />
           </button>
 
-          {/* Divider */}
           <div className="hidden h-8 w-px bg-white/10 sm:block" />
 
-          {/* User */}
           <button
             type="button"
             className="group flex items-center gap-3 rounded-xl p-1.5 pr-3 transition hover:bg-white/[0.05]"
