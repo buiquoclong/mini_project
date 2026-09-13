@@ -47,7 +47,7 @@ export default function Topbar() {
 
           <button
             type="button"
-            className="group relative flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-zinc-400 transition-all duration-300 hover:border-white/20 hover:bg-white/10 hover:text-white"
+            className="group relative flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/4 text-zinc-400 transition-all duration-300 hover:border-white/20 hover:bg-white/10 hover:text-white"
           >
             <Bell
               size={18}
@@ -61,10 +61,10 @@ export default function Topbar() {
 
           <button
             type="button"
-            className="group flex items-center gap-3 rounded-xl p-1.5 pr-3 transition hover:bg-white/[0.05]"
+            className="group flex items-center gap-3 rounded-xl p-1.5 pr-3 transition hover:bg-white/5"
           >
             <div className="relative">
-              <div className="absolute -inset-[2px] rounded-xl bg-gradient-to-br from-blue-500 via-violet-500 to-purple-600 opacity-70 blur-[1px] transition-opacity group-hover:opacity-100" />
+              <div className="absolute -inset-0.5 rounded-xl bg-linear-to-br from-blue-500 via-violet-500 to-purple-600 opacity-70 blur-[1px] transition-opacity group-hover:opacity-100" />
 
               <div className="relative flex h-9 w-9 items-center justify-center rounded-[10px] bg-zinc-900 text-sm font-semibold text-white">
                 LB
