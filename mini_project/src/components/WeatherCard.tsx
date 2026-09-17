@@ -14,12 +14,10 @@ export default function WeatherCard({ data }: Props) {
 
   return (
     <div className="relative w-full overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.08] via-white/[0.04] to-cyan-500/[0.03] p-6 shadow-2xl shadow-black/20 backdrop-blur-2xl">
-      {/* Decorative glow */}
       <div className="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-cyan-500/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -left-16 h-48 w-48 rounded-full bg-blue-600/10 blur-3xl" />
 
       <div className="relative z-10">
-        {/* Header */}
         <div className="flex items-start justify-between gap-4">
           <div>
             <div className="flex items-center gap-2">
@@ -42,16 +40,13 @@ export default function WeatherCard({ data }: Props) {
             </div>
           </div>
 
-          {/* Weather icon */}
           <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-cyan-400/10 bg-cyan-400/[0.08] text-cyan-300 shadow-inner shadow-cyan-400/5">
             <CloudSun size={38} strokeWidth={1.5} />
           </div>
         </div>
 
-        {/* Divider */}
         <div className="my-6 h-px bg-gradient-to-r from-white/10 via-white/5 to-transparent" />
 
-        {/* Main weather */}
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <div className="flex items-start">
