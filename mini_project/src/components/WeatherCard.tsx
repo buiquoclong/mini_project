@@ -40,7 +40,7 @@ export default function WeatherCard({ data }: Props) {
             </div>
           </div>
 
-          <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-cyan-400/10 bg-cyan-400/[0.08] text-cyan-300 shadow-inner shadow-cyan-400/5">
+          <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-cyan-400/10 bg-cyan-400/8 text-cyan-300 shadow-inner shadow-cyan-400/5">
             <CloudSun size={38} strokeWidth={1.5} />
           </div>
         </div>
