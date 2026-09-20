@@ -45,7 +45,7 @@ export default function WeatherCard({ data }: Props) {
           </div>
         </div>
 
-        <div className="my-6 h-px bg-gradient-to-r from-white/10 via-white/5 to-transparent" />
+        <div className="my-6 h-px bg-linear-to-r from-white/10 via-white/5 to-transparent" />
 
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
