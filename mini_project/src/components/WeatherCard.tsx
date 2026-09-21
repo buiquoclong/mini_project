@@ -13,7 +13,7 @@ export default function WeatherCard({ data }: Props) {
   const windDirection = Math.round(current.winddirection);
 
   return (
-    <div className="relative w-full overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.08] via-white/[0.04] to-cyan-500/[0.03] p-6 shadow-2xl shadow-black/20 backdrop-blur-2xl">
+    <div className="relative w-full overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-white/8 via-white/4 to-cyan-500/3 p-6 shadow-2xl shadow-black/20 backdrop-blur-2xl">
       <div className="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full bg-cyan-500/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -left-16 h-48 w-48 rounded-full bg-blue-600/10 blur-3xl" />
 
