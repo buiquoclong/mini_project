@@ -50,7 +50,7 @@ export default function WeatherCard({ data }: Props) {
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <div className="flex items-start">
-              <span className="bg-gradient-to-b from-white to-zinc-400 bg-clip-text text-7xl font-semibold leading-none tracking-[-0.07em] text-transparent">
+              <span className="bg-linear-to-b from-white to-zinc-400 bg-clip-text text-7xl font-semibold leading-none tracking-[-0.07em] text-transparent">
                 {temperature}
               </span>
               <span className="mt-1 text-3xl font-light text-cyan-400">°C</span>
