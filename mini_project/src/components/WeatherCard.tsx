@@ -62,7 +62,6 @@ export default function WeatherCard({ data }: Props) {
             </p>
           </div>
 
-          {/* Weather details */}
           <div className="grid grid-cols-2 gap-3 sm:min-w-57.5">
             <div className="rounded-2xl border border-white/10 bg-black/10 p-4 transition-colors hover:bg-white/6">
               <div className="flex items-center gap-2 text-zinc-500">
