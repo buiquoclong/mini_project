@@ -93,7 +93,6 @@ export default function WeatherCard({ data }: Props) {
           </div>
         </div>
 
-        {/* Footer */}
         <div className="mt-6 flex items-center justify-between border-t border-white/5 pt-4">
           <span className="text-xs text-zinc-600">Live weather data</span>
 
