@@ -94,7 +94,7 @@ export default function WeatherCard({ data }: Props) {
         </div>
 
         <div className="mt-6 flex items-center justify-between border-t border-white/5 pt-4">
-          <span className="text-xs text-zinc-600">Live weather data</span>
+          <span className="text-xs text-zinc-600">Live weather</span>
 
           <span className="flex items-center gap-1.5 text-xs text-emerald-400/80">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
