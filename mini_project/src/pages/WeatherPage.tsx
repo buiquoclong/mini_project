@@ -38,7 +38,7 @@ export default function WeatherPage() {
                 upcoming 7-day forecast.{" "}
               </p>{" "}
             </div>{" "}
-            <div className="w-full lg:w-[420px]">
+            <div className="w-full lg:w-105">
               {" "}
               <SearchBar onSearch={search} />{" "}
             </div>{" "}
