@@ -10,7 +10,6 @@ export default function WeatherPage() {
       {" "}
       <div className="mx-auto max-w-7xl">
         {" "}
-        {/* Page Header */}{" "}
         <section className="mb-8">
           {" "}
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
