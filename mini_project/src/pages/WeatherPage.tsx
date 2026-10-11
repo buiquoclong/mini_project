@@ -43,7 +43,6 @@ export default function WeatherPage() {
             </div>{" "}
           </div>{" "}
         </section>{" "}
-        {/* Error */}{" "}
         {error && (
           <div className="mb-6 flex items-start gap-3 rounded-2xl border border-red-500/20 bg-red-500/6 p-4 text-red-400">
             {" "}
