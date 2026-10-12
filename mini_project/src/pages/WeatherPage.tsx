@@ -57,7 +57,6 @@ export default function WeatherPage() {
             </div>{" "}
           </div>
         )}{" "}
-        {/* Loading */}{" "}
         {loading && (
           <div className="flex min-h-90 flex-col items-center justify-center rounded-3xl border border-white/10 bg-white/3">
             {" "}
