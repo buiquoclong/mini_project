@@ -74,7 +74,6 @@ export default function WeatherPage() {
             </p>{" "}
           </div>
         )}{" "}
-        {/* Weather Content */}{" "}
         {!loading && data && (
           <section className="grid gap-6 xl:grid-cols-[minmax(0,1.7fr)_minmax(320px,1fr)]">
             {" "}
