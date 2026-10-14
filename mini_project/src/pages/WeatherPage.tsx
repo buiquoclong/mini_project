@@ -82,7 +82,6 @@ export default function WeatherPage() {
               {" "}
               <WeatherCard data={data} />{" "}
             </div>{" "}
-            {/* Forecast */}{" "}
             <div className="min-w-0 rounded-3xl border border-white/10 bg-white/3 p-5 shadow-2xl shadow-black/10 backdrop-blur-xl">
               {" "}
               <div className="mb-5 flex items-center justify-between">
