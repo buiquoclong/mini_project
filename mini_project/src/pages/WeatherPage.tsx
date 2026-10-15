@@ -77,7 +77,6 @@ export default function WeatherPage() {
         {!loading && data && (
           <section className="grid gap-6 xl:grid-cols-[minmax(0,1.7fr)_minmax(320px,1fr)]">
             {" "}
-            {/* Current Weather */}{" "}
             <div className="min-w-0">
               {" "}
               <WeatherCard data={data} />{" "}
