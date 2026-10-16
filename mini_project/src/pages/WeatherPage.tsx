@@ -105,7 +105,6 @@ export default function WeatherPage() {
             </div>{" "}
           </section>
         )}{" "}
-        {/* Empty State */}{" "}
         {!loading && !data && !error && (
           <section className="relative flex min-h-105 items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-white/3">
             {" "}
