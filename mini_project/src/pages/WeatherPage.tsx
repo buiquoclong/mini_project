@@ -108,7 +108,6 @@ export default function WeatherPage() {
         {!loading && !data && !error && (
           <section className="relative flex min-h-105 items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-white/3">
             {" "}
-            {/* Background glow */}{" "}
             <div className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-3xl" />{" "}
             <div className="relative z-10 flex max-w-md flex-col items-center px-6 text-center">
               {" "}
