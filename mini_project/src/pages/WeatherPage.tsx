@@ -132,7 +132,6 @@ export default function WeatherPage() {
             </div>{" "}
           </section>
         )}{" "}
-        {/* Footer */}{" "}
         <div className="mt-8 flex items-center justify-between border-t border-white/5 pt-4">
           {" "}
           <p className="text-[11px] text-zinc-700"> Weather Dashboard </p>{" "}
