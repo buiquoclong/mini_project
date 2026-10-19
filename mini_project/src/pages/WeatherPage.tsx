@@ -7,13 +7,9 @@ export default function WeatherPage() {
   const { data, loading, error, search } = useWeather();
   return (
     <main className="min-h-full bg-zinc-950 px-4 py-6 text-white sm:px-6 lg:px-8">
-      {" "}
       <div className="mx-auto max-w-7xl">
-        {" "}
         <section className="mb-8">
-          {" "}
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-            {" "}
             <div>
               {" "}
               <div className="mb-3 flex items-center gap-2">
