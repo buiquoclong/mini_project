@@ -11,12 +11,9 @@ export default function WeatherPage() {
         <section className="mb-8">
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
             <div>
-              {" "}
               <div className="mb-3 flex items-center gap-2">
-                {" "}
                 <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-cyan-400/10 text-cyan-400">
-                  {" "}
-                  <CloudSun size={16} />{" "}
+                  <CloudSun size={16} />
                 </div>{" "}
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">
                   {" "}
