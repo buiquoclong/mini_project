@@ -14,18 +14,16 @@ export default function WeatherPage() {
               <div className="mb-3 flex items-center gap-2">
                 <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-cyan-400/10 text-cyan-400">
                   <CloudSun size={16} />
-                </div>{" "}
+                </div>
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">
-                  {" "}
                   Weather{" "}
-                </span>{" "}
-              </div>{" "}
+                </span>
+              </div>
               <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                 {" "}
                 Weather Overview{" "}
-              </h1>{" "}
+              </h1>
               <p className="mt-2 max-w-xl text-sm leading-6 text-zinc-500">
-                {" "}
                 Search for a city to view current weather conditions and the
                 upcoming 7-day forecast.{" "}
               </p>{" "}
