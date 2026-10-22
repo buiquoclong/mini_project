@@ -26,14 +26,13 @@ export default function WeatherPage() {
               <p className="mt-2 max-w-xl text-sm leading-6 text-zinc-500">
                 Search for a city to view current weather conditions and the
                 upcoming 7-day forecast.{" "}
-              </p>{" "}
-            </div>{" "}
+              </p>
+            </div>
             <div className="w-full lg:w-105">
-              {" "}
-              <SearchBar onSearch={search} />{" "}
-            </div>{" "}
-          </div>{" "}
-        </section>{" "}
+              <SearchBar onSearch={search} />
+            </div>
+          </div>
+        </section>
         {error && (
           <div className="mb-6 flex items-start gap-3 rounded-2xl border border-red-500/20 bg-red-500/6 p-4 text-red-400">
             {" "}
