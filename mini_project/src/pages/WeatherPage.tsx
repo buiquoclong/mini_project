@@ -16,16 +16,15 @@ export default function WeatherPage() {
                   <CloudSun size={16} />
                 </div>
                 <span className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">
-                  Weather{" "}
+                  Weather
                 </span>
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                {" "}
-                Weather Overview{" "}
+                Weather Overview
               </h1>
               <p className="mt-2 max-w-xl text-sm leading-6 text-zinc-500">
                 Search for a city to view current weather conditions and the
-                upcoming 7-day forecast.{" "}
+                upcoming 7-day forecast.
               </p>
             </div>
             <div className="w-full lg:w-105">
@@ -35,8 +34,7 @@ export default function WeatherPage() {
         </section>
         {error && (
           <div className="mb-6 flex items-start gap-3 rounded-2xl border border-red-500/20 bg-red-500/6 p-4 text-red-400">
-            {" "}
-            <AlertCircle size={20} className="mt-0.5 shrink-0" />{" "}
+            <AlertCircle size={20} className="mt-0.5 shrink-0" />
             <div>
               {" "}
               <p className="text-sm font-semibold">
@@ -94,7 +92,7 @@ export default function WeatherPage() {
               <ForecastList daily={data.daily} />{" "}
             </div>{" "}
           </section>
-        )}{" "}
+        )}
         {!loading && !data && !error && (
           <section className="relative flex min-h-105 items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-white/3">
             {" "}
