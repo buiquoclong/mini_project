@@ -36,13 +36,9 @@ export default function WeatherPage() {
           <div className="mb-6 flex items-start gap-3 rounded-2xl border border-red-500/20 bg-red-500/6 p-4 text-red-400">
             <AlertCircle size={20} className="mt-0.5 shrink-0" />
             <div>
-              {" "}
-              <p className="text-sm font-semibold">
-                {" "}
-                Unable to load weather{" "}
-              </p>{" "}
-              <p className="mt-1 text-xs text-red-400/70"> {error} </p>{" "}
-            </div>{" "}
+              <p className="text-sm font-semibold">Unable to load weather</p>
+              <p className="mt-1 text-xs text-red-400/70"> {error} </p>
+            </div>
           </div>
         )}{" "}
         {loading && (
