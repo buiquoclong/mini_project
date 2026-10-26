@@ -43,11 +43,9 @@ export default function WeatherPage() {
         )}{" "}
         {loading && (
           <div className="flex min-h-90 flex-col items-center justify-center rounded-3xl border border-white/10 bg-white/3">
-            {" "}
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-400/10 text-cyan-400">
-              {" "}
-              <LoaderCircle size={28} className="animate-spin" />{" "}
-            </div>{" "}
+              <LoaderCircle size={28} className="animate-spin" />
+            </div>
             <p className="mt-5 text-sm font-medium text-zinc-300">
               {" "}
               Loading weather data...{" "}
