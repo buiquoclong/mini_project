@@ -40,7 +40,7 @@ export default function WeatherPage() {
               <p className="mt-1 text-xs text-red-400/70"> {error} </p>
             </div>
           </div>
-        )}{" "}
+        )}
         {loading && (
           <div className="flex min-h-90 flex-col items-center justify-center rounded-3xl border border-white/10 bg-white/3">
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-400/10 text-cyan-400">
@@ -51,14 +51,12 @@ export default function WeatherPage() {
             </p>
             <p className="mt-1 text-xs text-zinc-600">
               Getting the latest forecast
-            </p>{" "}
+            </p>
           </div>
-        )}{" "}
+        )}
         {!loading && data && (
           <section className="grid gap-6 xl:grid-cols-[minmax(0,1.7fr)_minmax(320px,1fr)]">
-            {" "}
             <div className="min-w-0">
-              {" "}
               <WeatherCard data={data} />{" "}
             </div>{" "}
             <div className="min-w-0 rounded-3xl border border-white/10 bg-white/3 p-5 shadow-2xl shadow-black/10 backdrop-blur-xl">
