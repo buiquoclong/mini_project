@@ -57,12 +57,10 @@ export default function WeatherPage() {
         {!loading && data && (
           <section className="grid gap-6 xl:grid-cols-[minmax(0,1.7fr)_minmax(320px,1fr)]">
             <div className="min-w-0">
-              <WeatherCard data={data} />{" "}
-            </div>{" "}
+              <WeatherCard data={data} />
+            </div>
             <div className="min-w-0 rounded-3xl border border-white/10 bg-white/3 p-5 shadow-2xl shadow-black/10 backdrop-blur-xl">
-              {" "}
               <div className="mb-5 flex items-center justify-between">
-                {" "}
                 <div>
                   {" "}
                   <p className="text-xs font-medium uppercase tracking-[0.15em] text-zinc-600">
