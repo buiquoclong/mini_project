@@ -62,13 +62,10 @@ export default function WeatherPage() {
             <div className="min-w-0 rounded-3xl border border-white/10 bg-white/3 p-5 shadow-2xl shadow-black/10 backdrop-blur-xl">
               <div className="mb-5 flex items-center justify-between">
                 <div>
-                  {" "}
                   <p className="text-xs font-medium uppercase tracking-[0.15em] text-zinc-600">
-                    {" "}
-                    Forecast{" "}
-                  </p>{" "}
+                    Forecast
+                  </p>
                   <h2 className="mt-1 text-lg font-semibold text-white">
-                    {" "}
                     7-day forecast{" "}
                   </h2>{" "}
                 </div>{" "}
