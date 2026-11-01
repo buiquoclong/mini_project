@@ -70,10 +70,10 @@ export default function WeatherPage() {
                   </h2>
                 </div>
                 <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-400/10 text-cyan-400">
-                  <CloudSun size={18} />{" "}
-                </div>{" "}
-              </div>{" "}
-              <ForecastList daily={data.daily} />{" "}
+                  <CloudSun size={18} />
+                </div>
+              </div>
+              <ForecastList daily={data.daily} />
             </div>{" "}
           </section>
         )}
