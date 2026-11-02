@@ -74,15 +74,13 @@ export default function WeatherPage() {
                 </div>
               </div>
               <ForecastList daily={data.daily} />
-            </div>{" "}
+            </div>
           </section>
         )}
         {!loading && !data && !error && (
           <section className="relative flex min-h-105 items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-white/3">
-            {" "}
-            <div className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-3xl" />{" "}
+            <div className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
             <div className="relative z-10 flex max-w-md flex-col items-center px-6 text-center">
-              {" "}
               <div className="flex h-20 w-20 items-center justify-center rounded-3xl border border-cyan-400/10 bg-cyan-400/[0.07] text-cyan-400 shadow-2xl shadow-cyan-500/10">
                 {" "}
                 <CloudSun size={40} strokeWidth={1.4} />{" "}
