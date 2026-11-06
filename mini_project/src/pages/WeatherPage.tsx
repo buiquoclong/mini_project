@@ -95,15 +95,12 @@ export default function WeatherPage() {
                 <MapPin size={13} />
                 <span>Try searching for London, Tokyo or Paris</span>
               </div>
-            </div>{" "}
+            </div>
           </section>
         )}
         <div className="mt-8 flex items-center justify-between border-t border-white/5 pt-4">
           <p className="text-[11px] text-zinc-700"> Weather Dashboard </p>
-          <p className="text-[11px] text-zinc-700">
-            {" "}
-            Live weather information{" "}
-          </p>
+          <p className="text-[11px] text-zinc-700">Live weather information</p>
         </div>
       </div>
     </main>
