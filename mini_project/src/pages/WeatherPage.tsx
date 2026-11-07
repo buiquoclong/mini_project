@@ -89,8 +89,10 @@ export default function WeatherPage() {
               </h2>
               <p className="mt-2 text-sm leading-6 text-zinc-500">
                 Search for any city above to see current conditions,
-                temperature, wind information, and the 7-day forecast.
+                temperature, wind information, and the 7-day forecast, all in
+                one place.
               </p>
+              <p className="mt-2 text-sm leading-6 text-zinc-500"></p>
               <div className="mt-5 flex items-center gap-2 rounded-full border border-white/10 bg-white/4 px-4 py-2 text-xs text-zinc-500">
                 <MapPin size={13} />
                 <span>Try searching for London, Tokyo or Paris</span>
