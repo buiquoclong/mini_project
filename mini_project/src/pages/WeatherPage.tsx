@@ -50,7 +50,7 @@ export default function WeatherPage() {
               Loading weather data...
             </p>
             <p className="mt-1 text-xs text-zinc-600">
-              Getting the latest forecast
+              Getting the latest forecast, please wait a moment.
             </p>
           </div>
         )}
