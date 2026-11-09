@@ -92,7 +92,9 @@ export default function WeatherPage() {
                 temperature, wind information, and the 7-day forecast, all in
                 one place.
               </p>
-              <p className="mt-2 text-sm leading-6 text-zinc-500"></p>
+              <p className="mt-2 text-sm leading-6 text-zinc-500">
+                Try searching for a city to get started.
+              </p>
               <div className="mt-5 flex items-center gap-2 rounded-full border border-white/10 bg-white/4 px-4 py-2 text-xs text-zinc-500">
                 <MapPin size={13} />
                 <span>Try searching for London, Tokyo or Paris</span>
@@ -102,7 +104,9 @@ export default function WeatherPage() {
         )}
         <div className="mt-8 flex items-center justify-between border-t border-white/5 pt-4">
           <p className="text-[11px] text-zinc-700"> Weather Dashboard </p>
-          <p className="text-[11px] text-zinc-700">Live weather information</p>
+          <p className="text-[11px] text-zinc-700">
+            Live weather information, updated every 15 minutes
+          </p>
         </div>
       </div>
     </main>
