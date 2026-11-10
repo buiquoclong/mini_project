@@ -36,7 +36,9 @@ export default function WeatherPage() {
           <div className="mb-6 flex items-start gap-3 rounded-2xl border border-red-500/20 bg-red-500/6 p-4 text-red-400">
             <AlertCircle size={20} className="mt-0.5 shrink-0" />
             <div>
-              <p className="text-sm font-semibold">Unable to load weather</p>
+              <p className="text-sm font-semibold">
+                Unable to load weather data
+              </p>
               <p className="mt-1 text-xs text-red-400/70"> {error} </p>
             </div>
           </div>
@@ -97,7 +99,7 @@ export default function WeatherPage() {
               </p>
               <div className="mt-5 flex items-center gap-2 rounded-full border border-white/10 bg-white/4 px-4 py-2 text-xs text-zinc-500">
                 <MapPin size={13} />
-                <span>Try searching for London, Tokyo or Paris</span>
+                <span>Try searching for London, Tokyo or Paris </span>
               </div>
             </div>
           </section>
