@@ -99,7 +99,7 @@ export default function WeatherPage() {
               </p>
               <div className="mt-5 flex items-center gap-2 rounded-full border border-white/10 bg-white/4 px-4 py-2 text-xs text-zinc-500">
                 <MapPin size={13} />
-                <span>Try searching for London, Tokyo or Paris </span>
+                <span>Try searching for a city </span>
               </div>
             </div>
           </section>
