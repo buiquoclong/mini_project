@@ -90,9 +90,8 @@ export default function WeatherPage() {
                 Explore the weather
               </h2>
               <p className="mt-2 text-sm leading-6 text-zinc-500">
-                Search for any city above to see current conditions,
-                temperature, wind information, and the 7-day forecast, all in
-                one place.
+                Search for a city to view current weather conditions and the
+                upcoming 7-day forecast.
               </p>
               <p className="mt-2 text-sm leading-6 text-zinc-500">
                 Try searching for a city to get started.
