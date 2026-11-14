@@ -68,7 +68,7 @@ export default function WeatherPage() {
                     Forecast
                   </p>
                   <h2 className="mt-1 text-lg font-semibold text-white">
-                    7-day forecast
+                    7-Day Forecast
                   </h2>
                 </div>
                 <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-400/10 text-cyan-400">
