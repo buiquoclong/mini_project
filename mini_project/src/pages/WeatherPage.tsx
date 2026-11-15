@@ -94,7 +94,8 @@ export default function WeatherPage() {
                 upcoming 7-day forecast.
               </p>
               <p className="mt-2 text-sm leading-6 text-zinc-500">
-                Try searching for a city to get started.
+                Try searching for a city to get started, such as "New York",
+                "London", or "Tokyo".
               </p>
               <div className="mt-5 flex items-center gap-2 rounded-full border border-white/10 bg-white/4 px-4 py-2 text-xs text-zinc-500">
                 <MapPin size={13} />
