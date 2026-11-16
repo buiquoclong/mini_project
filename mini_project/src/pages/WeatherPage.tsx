@@ -23,8 +23,9 @@ export default function WeatherPage() {
                 Weather Overview
               </h1>
               <p className="mt-2 max-w-xl text-sm leading-6 text-zinc-500">
-                Search for a city to view current weather conditions and the
-                upcoming 7-day forecast.
+                Get the latest weather information for your city, including
+                current conditions and a 7-day forecast. Stay informed and plan
+                your activities accordingly.
               </p>
             </div>
             <div className="w-full lg:w-105">
